@@ -1,9 +1,9 @@
 def library_details(id, title, Author, Year):
     result = (
-        "Book ID: {id}\n",
-        "Book Title: {title}\n",
-        "Author Name: {Author}\n",
-        "Year Of Publication: {Year}\n"
+        f"Book ID: {id}\n"
+        f"Book Title: {title}\n"
+        f"Author Name: {Author}\n"
+        f"Year Of Publication: {Year}\n"
     )
     return result
 
