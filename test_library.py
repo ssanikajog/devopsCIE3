@@ -1,6 +1,6 @@
 from library import library_details
 
-def test_library_details(ID, title, Author, Year):
+def test_library_details():
     expected_output = (
         "Book ID: 1001\n",
         "Book Title: Train Dreams\n",
